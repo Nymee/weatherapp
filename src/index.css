@@ -1,0 +1,110 @@
+*{
+  margin: 0px;
+}
+
+body{
+  font-family: 'montseratt', sans-serif;
+  background-image: linear-gradient(to right,rgb(117, 24, 24),black,rgb(34, 48, 97));
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.app{
+  width:650px;
+  height: 100vh;
+  border-radius: 30px;
+  background-image: url('./assets/cold\ mountain.jpg');
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s ease-out;
+}
+
+
+.app.warm{
+  width:650px;
+  height: 100vh;
+  background-image: url('./assets/read\ mountain.webp');
+  background-position: center;
+  background-size: cover;
+  transition: 0.5 ;
+}
+
+.container-1{
+  display: flex;
+  justify-content: center;
+
+}
+.search-bar{
+  width: 650px;
+  padding:15px;
+  border:none;
+  box-shadow: 0px 4px rgb(36, 34, 34,0.5);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+}
+
+
+
+.weather-data{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.location{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style:normal;
+  font-size: 25px;
+  color: rgb(43, 39, 39);
+}
+.date{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+
+
+.temp{
+  font-size: 80px;
+  font-weight: lighter;
+  box-shadow: 5px 3px 4px rgb(36, 34, 34,50%);
+  color: rgba(0, 0, 0, 0.7);
+  margin:0px 150px;
+  margin-top: 100px;
+  padding:30px 10px;
+  background-color: rgb(196, 189, 181, 50%);
+  border-radius: 10px;
+}
+
+
+.weather{
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(59, 59, 59);
+  background-color: rgba(228, 228, 228, 0.7);
+  margin:0px 180px;
+  margin-top:10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow:3px 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
